@@ -5,3 +5,28 @@ Trying to figure out how to track the cursor from the apple vision pro, indicati
 ![https://github.com/joshuaeinhoff/AVP-Cursor-Tracker/blob/main/img/DetectionTestframeBestcase.png](https://github.com/joshuaeinhoff/AVP-Cursor-Tracking/blob/main/img/DetectionTestframeBestcase.png)
 ### Example 2: Cursor
 ![https://github.com/joshuaeinhoff/AVP-Cursor-Tracking/blob/main/img/ViewIndicator.png](https://github.com/joshuaeinhoff/AVP-Cursor-Tracking/blob/main/img/ViewIndicator.png)
+
+## Best case
+- TM_CCOEFF -> Failed | Mismatch
+- TM_CCOEFF_NORMED -> Success
+- TM_CCORR -> Failed | Mismatch
+- TM_CCORR_NORMED -> Success
+- TM_SQDIFF -> Success
+- TM_SQDIFF_NORMED -> Success
+
+
+## Occlusion case
+- TM_CCOEFF -> Failed | Mismatch
+- TM_CCOEFF_NORMED -> Failed | Mismatch
+- TM_CCORR -> Failed | Mismatch
+- TM_CCORR_NORMED -> Failed | Mismatch
+- TM_SQDIFF -> Failed | Mismatch
+- TM_SQDIFF_NORMED -> Failed | Mismatch
+
+## Worst case
+- TM_CCOEFF -> Failed | Mismatch
+- TM_CCOEFF_NORMED -> Failed | Mismatch
+- TM_CCORR -> Failed | 
+- TM_CCORR_NORMED -> Failed | Mismatch
+- TM_SQDIFF -> Failed | Mismatch
+- TM_SQDIFF_NORMED -> Failed | Mismatch
