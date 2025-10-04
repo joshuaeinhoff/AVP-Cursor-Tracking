@@ -1,3 +1,6 @@
 numpy
 matplotlib
 opencv-contrib-python
+ultralytics
+pandas
+jupyterlab
